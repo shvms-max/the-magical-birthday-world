@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/the-magical-birthday-world/sw.js', { scope: '/the-magical-birthday-world/' })})}
