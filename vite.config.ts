@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-  base: '/the-magical-birthday-world/',
+  base: './',
   plugins: [
     react(),
     VitePWA({
@@ -16,10 +16,10 @@ export default defineConfig({
         theme_color: '#f9a8d4',
         background_color: '#f5d9ff',
         display: 'standalone',
-        start_url: '/the-magical-birthday-world/',
+        start_url: './',
         icons: [
           {
-            src: '/the-magical-birthday-world/favicon.svg',
+            src: './favicon.svg',
             sizes: 'any',
             type: 'image/svg+xml',
             purpose: 'any maskable',
